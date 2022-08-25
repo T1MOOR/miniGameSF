@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="miniGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="xwo-8V-Jhc" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="97" y="283" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="M16-hM-AM0"/>
+                                    <constraint firstAttribute="width" constant="80" id="awL-Gb-kiI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="4"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="KCD-At-bH5" appends="YES" id="TTF-Bo-at6"/>
+                                </connections>
+                            </view>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="8AN-0D-n18" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="247" y="283" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="9kV-QC-BNo"/>
+                                    <constraint firstAttribute="height" constant="80" id="C68-Ec-ciG"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="5"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="A7R-R0-e81" appends="YES" id="2el-3P-LBB"/>
+                                </connections>
+                            </view>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="iv0-gM-NWX" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="27" y="413" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="H71-U9-4Fg"/>
+                                    <constraint firstAttribute="height" constant="80" id="kFW-3x-Seg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="3"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lOc-qT-ZhF" appends="YES" id="KfB-ga-Qop"/>
+                                </connections>
+                            </view>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="aSa-to-9ap" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="307" y="413" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Cdf-nb-krm"/>
+                                    <constraint firstAttribute="height" constant="80" id="f48-vC-tEo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="6"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OaD-Z0-FmV" appends="YES" id="Wsc-Ei-nX2"/>
+                                </connections>
+                            </view>
+                            <view multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="oC3-7u-ro9" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="97" y="543" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="gFZ-Fb-D40"/>
+                                    <constraint firstAttribute="width" constant="80" id="hVK-69-duc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="2"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hX8-nF-M8d" appends="YES" id="TAW-dq-w77"/>
+                                </connections>
+                            </view>
+                            <view multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="GUP-Fv-Qch" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="237" y="543" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="2VC-uk-DXe"/>
+                                    <constraint firstAttribute="height" constant="80" id="jgu-vO-ZKq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="1"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jV1-mF-bH2" appends="YES" id="gNo-9c-hxd"/>
+                                </connections>
+                            </view>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="eEJ-tc-hUG" customClass="MyCustomView" customModule="miniGame" customModuleProvider="target">
+                                <rect key="frame" x="167" y="413" width="80" height="80"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Bhs-7v-Clv"/>
+                                    <constraint firstAttribute="width" constant="80" id="ce1-JO-oeL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="7"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hNV-E8-tQc" appends="YES" id="HZC-se-mHD"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aSa-to-9ap" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="6Jd-WG-Ih4"/>
+                            <constraint firstItem="8AN-0D-n18" firstAttribute="leading" secondItem="eEJ-tc-hUG" secondAttribute="trailing" id="70v-ge-ABU"/>
+                            <constraint firstItem="eEJ-tc-hUG" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="BYo-9s-zx3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aSa-to-9ap" secondAttribute="trailing" constant="27" id="HrJ-WL-61s"/>
+                            <constraint firstItem="oC3-7u-ro9" firstAttribute="top" secondItem="eEJ-tc-hUG" secondAttribute="bottom" constant="50" id="K32-GP-QNe"/>
+                            <constraint firstItem="eEJ-tc-hUG" firstAttribute="leading" secondItem="oC3-7u-ro9" secondAttribute="trailing" constant="-10" id="Sb6-6D-PRx"/>
+                            <constraint firstItem="eEJ-tc-hUG" firstAttribute="top" secondItem="8AN-0D-n18" secondAttribute="bottom" constant="50" id="gQ6-Fc-20A"/>
+                            <constraint firstItem="iv0-gM-NWX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="hrv-BO-caO"/>
+                            <constraint firstItem="eEJ-tc-hUG" firstAttribute="leading" secondItem="xwo-8V-Jhc" secondAttribute="trailing" constant="-10" id="ljb-OU-Fpb"/>
+                            <constraint firstItem="GUP-Fv-Qch" firstAttribute="leading" secondItem="eEJ-tc-hUG" secondAttribute="trailing" constant="-10" id="mFG-hQ-baP"/>
+                            <constraint firstItem="GUP-Fv-Qch" firstAttribute="top" secondItem="eEJ-tc-hUG" secondAttribute="bottom" constant="50" id="sdk-Sy-WKf"/>
+                            <constraint firstItem="eEJ-tc-hUG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="w8e-eq-SUa"/>
+                            <constraint firstItem="eEJ-tc-hUG" firstAttribute="top" secondItem="xwo-8V-Jhc" secondAttribute="bottom" constant="50" id="z4M-kV-AeG"/>
+                            <constraint firstItem="iv0-gM-NWX" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="zEf-6l-vDv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1View" destination="GUP-Fv-Qch" id="n3H-Hw-jNQ"/>
+                        <outlet property="button2View" destination="oC3-7u-ro9" id="Rah-7Y-baa"/>
+                        <outlet property="button3View" destination="iv0-gM-NWX" id="VWY-AB-COQ"/>
+                        <outlet property="button4View" destination="xwo-8V-Jhc" id="iFl-kb-Rsh"/>
+                        <outlet property="button5View" destination="8AN-0D-n18" id="HVC-68-SXD"/>
+                        <outlet property="button6View" destination="aSa-to-9ap" id="PFs-B2-B6q"/>
+                        <outlet property="button7View" destination="eEJ-tc-hUG" id="nsb-o9-37V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="jV1-mF-bH2">
+                    <connections>
+                        <action selector="pan1Acton:" destination="BYZ-38-t0r" id="X7v-fh-Rhz"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="bF2-AY-S94"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hX8-nF-M8d">
+                    <connections>
+                        <action selector="pan2Action:" destination="BYZ-38-t0r" id="lJe-Os-pEV"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="8zM-kg-mKb"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="lOc-qT-ZhF">
+                    <connections>
+                        <action selector="pan3Action:" destination="BYZ-38-t0r" id="eha-2R-DAk"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="22L-Gs-QNS"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="KCD-At-bH5">
+                    <connections>
+                        <action selector="pan4Action:" destination="BYZ-38-t0r" id="NZt-gk-fuZ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="x6z-XZ-4M3"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="A7R-R0-e81">
+                    <connections>
+                        <action selector="pan5Action:" destination="BYZ-38-t0r" id="PGE-O5-rNg"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="byl-HO-QY0"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="OaD-Z0-FmV">
+                    <connections>
+                        <action selector="pan6Action:" destination="BYZ-38-t0r" id="fyU-t8-teF"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="w5c-QI-lBb"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hNV-E8-tQc">
+                    <connections>
+                        <action selector="pan7Action:" destination="BYZ-38-t0r" id="0Si-Je-8GD"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="lbo-v7-anV"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+</document>
